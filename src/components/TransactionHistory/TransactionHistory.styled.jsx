@@ -1,7 +1,6 @@
 import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import { color, text, space } from 'constants/theme';
-import { flex } from 'components/Base/Flex.styled';
 
 const border = `2px solid ${color.grey_400}`;
 
