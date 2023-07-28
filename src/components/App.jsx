@@ -1,4 +1,3 @@
-import styled from '@emotion/styled';
 import { Container } from './App.styled';
 import { Profile } from 'components/Profile';
 import { Statistics } from 'components/Statistics';
@@ -8,6 +7,7 @@ import user from 'data/user';
 import data from 'data/data';
 import friends from 'data/friends';
 import transactions from 'data/transactions';
+
 export const App = () => {
   return (
     <Container>

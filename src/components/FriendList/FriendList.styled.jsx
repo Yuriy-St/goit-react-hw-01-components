@@ -1,4 +1,3 @@
-import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import { flex, flexCol } from 'components/Base/Flex.styled';
 import { color, text, space } from 'constants/theme';
