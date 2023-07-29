@@ -63,18 +63,6 @@ export const StatItem = styled.li`
   }
 `;
 
-export const Followers = styled(StatItem)`
-  background-color: ${color._1};
-`;
-
-export const Views = styled(StatItem)`
-  background-color: ${color._2};
-`;
-
-export const Likes = styled(StatItem)`
-  background-color: ${color._3};
-`;
-
 export const Label = styled.span`
   color: ${color.grey_600};
   text-transform: capitalize;

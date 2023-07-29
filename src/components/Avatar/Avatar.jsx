@@ -10,7 +10,7 @@ export default function Avatar({ imgSrc, altText, imgWidth }) {
 }
 
 Avatar.propTypes = {
-  imgSrc: PropTypes.string,
-  altText: PropTypes.string,
-  imgWidth: PropTypes.string,
+  imgSrc: PropTypes.string.isRequired,
+  altText: PropTypes.string.isRequired,
+  imgWidth: PropTypes.string.isRequired,
 };
